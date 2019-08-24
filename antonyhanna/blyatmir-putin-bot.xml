@@ -27,26 +27,32 @@
 		<Variable>
 			<Value></Value>
 			<Name>BOT_TOKEN</Name>
+			<Mode/>
 		</Variable>
 		<Variable>
 			<Value>!</Value>
 			<Name>BOT_PREFIX</Name>
+			<Mode/>
 		</Variable>
 		<Variable>
 			<Value>Rebuilding the USSR!</Value>
 			<Name>BOT_ACTIVITY</Name>
+			<Mode/>
 		</Variable>
 		<Variable>
 			<Value></Value>
 			<Name>DOCKER_IP</Name>
+			<Mode/>
 		</Variable>
 		<Variable>
 			<Value></Value>
 			<Name>SERVER_LOGIN</Name>
+			<Mode/>
 		</Variable>
 		<Variable>
 			<Value></Value>
 			<Name>SERVER_PASSWORD</Name>
+			<Mode/>
 		</Variable>
 	</Environment>
 	<Config Name="Config Path" Target="/config" Default="/mnt/cache/appdata/blyatmir-putin" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/blyatmir-putin</Config>
