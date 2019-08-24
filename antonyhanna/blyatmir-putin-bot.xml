@@ -55,8 +55,8 @@
 			<Mode/>
 		</Variable>
 	</Environment>
+	<Config Name="Token" Target="BOT_TOKEN" Default="" Mode="" Description="Set to Bot Token" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 	<Config Name="Config Path" Target="/config" Default="/mnt/cache/appdata/blyatmir-putin" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/blyatmir-putin</Config>
-	<Config Name="Token" Target="BOT_TOKEN" Default="" Mode="" Description="Set to bot token" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 	<Config Name="Prefix" Target="BOT_PREFIX" Default="!" Mode="" Description="Set to desired prefix" Type="Variable" Display="always" Required="true" Mask="false">!</Config>
 	<Config Name="Activity" Target="BOT_ACTIVITY" Default="" Mode="" Description="Set to your desired bot activity" Type="Variable" Display="always" Required="false" Mask="false">Rebuilding the USSR!</Config>
 	<Config Name="IP" Target="DOCKER_IP" Default="" Mode="" Description="Set to the ip of the host running docker services" Type="Variable" Display="advanced-hide" Required="false" Mask="false"></Config>
