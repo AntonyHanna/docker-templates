@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Container>
+	<TemplateURL>https://raw.githubusercontent.com/AntonyHanna/docker-templates/master/antonyhanna/blyatmir-putin-bot.xml</TemplateURL>
+	<Beta>True</Beta>
+	<Category>Tools:Utilities</Category>
+	<Date>2019/06/21</Date>
+	<Name>blyatmir-putin-bot</Name>
+	<Overview>Blyatmir Putin Bot is a simple discord bot with some odd functions and niche features</Overview>
+	<Project>https://github.com/AntonyHanna/Blyatmir-Putin-Bot</Project>
+	<Repository>antonyhanna/blyatmir-putin-bot</Repository>
+	<Registry>https://hub.docker.com/r/antonyhanna/blyatmir-putin-bot</Registry>
+	<Network>Bridge</Network>
+	<BindTime>True</BindTime>
+	<Priveleged>False</Priveleged>
+	<Icon>https://raw.githubusercontent.com/antonyhanna/docker-templates/master/antonyhanna/images/blyatmir-putin-logo.png</Icon>
+	<Networking>
+		<Mode>Bridge</Mode>
+	</Networking>
+	<Data>
+		<Volume>
+			<HostDir></HostDir>
+			<ContainerDir>/config</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+	</Data>
+	<Environment>
+		<Variable>
+			<Value></Value>
+			<Name>BOT_TOKEN</Name>
+		</Variable>
+		<Variable>
+			<Value>!</Value>
+			<Name>BOT_PREFIX</Name>
+		</Variable>
+		<Variable>
+			<Value>Rebuilding the USSR!</Value>
+			<Name>BOT_ACTIVITY</Name>
+		</Variable>
+		<Variable>
+			<Value></Value>
+			<Name>DOCKER_IP</Name>
+		</Variable>
+		<Variable>
+			<Value></Value>
+			<Name>SERVER_LOGIN</Name>
+		</Variable>
+		<Variable>
+			<Value></Value>
+			<Name>SERVER_PASSWORD</Name>
+		</Variable>
+	</Environment>
+	<Config Name="Config Path" Target="/config" Default="/mnt/cache/appdata/blyatmir-putin" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/blyatmir-putin</Config>
+	<Config Name="Token" Target="BOT_TOKEN" Default="" Mode="" Description="Set to bot token" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+	<Config Name="Prefix" Target="BOT_PREFIX" Default="!" Mode="" Description="Set to desired prefix" Type="Variable" Display="always" Required="true" Mask="false">!</Config>
+	<Config Name="Activity" Target="BOT_ACTIVITY" Default="" Mode="" Description="Set to your desired bot activity" Type="Variable" Display="always" Required="false" Mask="false">Rebuilding the USSR!</Config>
+	<Config Name="IP" Target="DOCKER_IP" Default="" Mode="" Description="Set to the ip of the host running docker services" Type="Variable" Display="advanced-hide" Required="false" Mask="false"></Config>
+	<Config Name="Username" Target="SERVER_LOGIN" Default="" Mode="" Description="The username to login with" Type="Variable" Display="advanced-hide" Required="false" Mask="false"></Config>
+	<Config Name="Password" Target="SERVER_PASSWORD" Default="" Mode="" Description="The password to login with" Type="Variable" Display="advanced-hide" Required="false" Mask="false"></Config>
+</Container>
