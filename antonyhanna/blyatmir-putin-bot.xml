@@ -9,12 +9,12 @@
 	<Project>https://github.com/AntonyHanna/Blyatmir-Putin-Bot</Project>
 	<Repository>antonyhanna/blyatmir-putin-bot</Repository>
 	<Registry>https://hub.docker.com/r/antonyhanna/blyatmir-putin-bot</Registry>
-	<Network>Bridge</Network>
+	<Network>bridge</Network>
 	<BindTime>True</BindTime>
 	<Priveleged>False</Priveleged>
 	<Icon>https://raw.githubusercontent.com/antonyhanna/docker-templates/master/antonyhanna/images/blyatmir-putin-logo.png</Icon>
 	<Networking>
-		<Mode>Bridge</Mode>
+		<Mode>bridge</Mode>
 	</Networking>
 	<Labels/>
 	<Config Name="Token" Target="BOT_TOKEN" Default="" Mode="" Description="Set to Bot Token" Type="Variable" Display="always" Required="true" Mask="false"></Config>
