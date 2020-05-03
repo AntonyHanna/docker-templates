@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Container>
 	<Name>minecraft-server-cf</Name>
-	<TemplateURL>https://raw.githubusercontent.com/AntonyHanna/docker-templates/master/antonyhanna/blyatmir-putin-bot.xml</TemplateURL>
+	<TemplateURL>https://raw.githubusercontent.com/AntonyHanna/docker-templates/master/antonyhanna/itzg-minecraft-server-cf.xml</TemplateURL>
 	<Beta>True</Beta>
 	<Category>GameServers</Category>
 	<Date>2020/05/03</Date>
