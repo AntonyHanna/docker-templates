@@ -10,7 +10,7 @@
 	Minecraft is a sandbox video game developed by Mojang. Minecraft was created by Markus "Notch" Persson in the Java programming 
 	language and was released as a public alpha for personal computers in 2009 before officially releasing in November 2011.[br][br]</Overview>
 	<Project>https://github.com/itzg/docker-minecraft-server</Project>
-	<Repository>itzg/docker-minecraft-server</Repository>
+	<Repository>itzg/minecraft-server</Repository>
 	<Registry>https://hub.docker.com/r/itzg/minecraft-server/</Registry>
 	<Network>bridge</Network>
 	<BindTime>True</BindTime>
