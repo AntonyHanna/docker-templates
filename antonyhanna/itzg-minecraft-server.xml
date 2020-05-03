@@ -5,10 +5,10 @@
 	<Category>GameServers</Category>
 	<Date>2020/05/03</Date>
 	<Name>minecraft-server</Name>
-	<Overview>Minecraft is a sandbox video game developed by Mojang. Minecraft was created by Markus "Notch" Persson in the Java programming 
-	language and was released as a public alpha for personal computers in 2009 before officially releasing in November 2011, with 
-	Jens Bergensten taking over development around then. It has since been ported to various platforms and is the bestselling video game 
-	of all time, with over 180 million copies sold across all platforms and over 112 million monthly active players by 2019.</Overview>
+	<Overview>
+	[center][img width='300px' src='https://raw.githubusercontent.com/antonyhanna/docker-templates/master/antonyhanna/images/minecraft-banner.png'][/center]
+	Minecraft is a sandbox video game developed by Mojang. Minecraft was created by Markus "Notch" Persson in the Java programming 
+	language and was released as a public alpha for personal computers in 2009 before officially releasing in November 2011.[br][br]</Overview>
 	<Project>https://github.com/itzg/docker-minecraft-server</Project>
 	<Repository>itzg/docker-minecraft-server</Repository>
 	<Registry>https://hub.docker.com/r/itzg/minecraft-server/</Registry>
