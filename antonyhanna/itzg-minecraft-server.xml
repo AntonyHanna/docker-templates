@@ -24,4 +24,5 @@
 	<Config Name="Version" Target="VERSION" Default="" Mode="" Description="Server Version" Type="" Display="always" Required="false" Mask="false"></Config>
 	<Config Name="Server Port" Target="25565" Default="" Mode="tcp" Description="Host Port" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
 	<Config Name="Data" Target="/data" Default="!" Mode="/mnt/cache/appdata/minecraft-server" Description="Data Mount" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/minecraft-server</Config>
+	<ExtraParameters>-i -d</ExtraParameters>
 </Container>
