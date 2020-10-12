@@ -20,9 +20,15 @@
 		<Mode>bridge</Mode>
 	</Networking>
 	<Labels/>
-	<Config Name="EULA" Target="EULA" Default="" Mode="" Description="End User License Agreement" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-	<Config Name="Version" Target="VERSION" Default="" Mode="" Description="Server Version" Type="" Display="always" Required="false" Mask="false"></Config>
-	<Config Name="Server Port" Target="25565" Default="" Mode="tcp" Description="Host Port" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
-	<Config Name="Data" Target="/data" Default="!" Mode="/mnt/cache/appdata/minecraft-server" Description="Data Mount" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/minecraft-server</Config>
 	<ExtraParams>-i -t</ExtraParams>
+	<Config Name="EULA" Target="EULA" Default="true" Mode="" Description="End User License Agreement" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+	<Config Name="Version" Target="VERSION" Default="" Mode="" Description="Server Version" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+	<Config Name="Server Port" Target="25565" Default="25565" Mode="tcp" Description="Host Port" Type="Port" Display="always" Required="true" Mask="false"></Config>
+	<Config Name="Data" Target="/data" Default="!" Mode="/mnt/cache/appdata/minecraft-server" Description="Data Mount" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/minecraft-server</Config>
+	<Config Name="Initial Memory" Target="INIT_MEMORY" Default="4G" Mode="" Description="Initial Memory Allocation" Type="" Display="always" Required="true" Mask="false">4G</Config>
+	<Config Name="Max Memory" Target="MAX_MEMORY" Default="4G" Mode="" Description="Max Memory Allocation" Type="Variable" Display="always" Required="true" Mask="false">4G</Config>
+	<Config Name="Max Players" Target="MAX_PLAYERS" Default="20" Mode="" Description="Max Players" Type="Variable" Display="always" Required="true" Mask="false">20</Config>
+	<Config Name="View Distance" Target="VIEW_DISTANCE" Default="10" Mode="" Description="View Distance" Type="Variable" Display="always" Required="true" Mask="false">10</Config>
+	<Config Name="Server Icon" Target="ICON" Default="" Mode="" Description="Server Icon" Type="Variable" Display="always" Required="false" Mask="false">https://raw.githubusercontent.com/antonyhanna/docker-templates/master/antonyhanna/images/minecraft-server.png</Config>
+	<Config Name="Message of the Day" Target="MOTD" Default="Powered by Docker" Mode="" Description="Message of the Day" Type="Variable" Display="always" Required="false" Mask="false">Powered by Docker</Config>
 </Container>
