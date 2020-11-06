@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Container>
-	<Name>minecraft-server-ftb</Name>
+	<Name>minecraft-server-spigot</Name>
 	<TemplateURL>https://raw.githubusercontent.com/AntonyHanna/docker-templates/master/antonyhanna/itzg-minecraft-server-ftb.xml</TemplateURL>
 	<Beta>True</Beta>
 	<Category>GameServers</Category>
