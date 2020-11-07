@@ -22,7 +22,6 @@
 	<Labels/>
 	<ExtraParams>-i -t</ExtraParams>
 	<Config Name="EULA" Target="EULA" Default="true" Mode="" Description="End User License Agreement" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
-	<Config Name="Version" Target="VERSION" Default="" Mode="" Description="Server Version" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 	<Config Name="Server Port" Target="25565" Default="25565" Mode="tcp" Description="Host Port" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
 	<Config Name="Data" Target="/data" Default="!" Mode="/mnt/cache/appdata/minecraft-server" Description="Data Mount" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/minecraft-server</Config>
 	<Config Name="Type" Target="TYPE" Default="CURSEFORGE" Mode="" Description="Mod Type" Type="Variable" Display="always" Required="true" Mask="false">CURSEFORGE</Config>
